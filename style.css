@@ -1,27 +1,249 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-.colorGrid{
+.gridContainer{
     display: grid;
     grid-template-columns: auto auto auto auto;
-    gap: 10px;
-    background-color: black;
-    padding: 10px;
+    gap: 5px;
+    background-color: white;
+    padding: 5px;
 }
-    .colorGrid, div{
-        background-color: white;
-        border: 1px solid black;
-        text-align: center;
-        font-size: 30px;
-    }
+
+.gridContainer, div{
+    background-color: whitesmoke;
+    /*border: 1px solid black;*/
+    text-align: center;
+    font-size: 30px;
+}
+
+.redCard{
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    background: red;
+    box-shadow: 5px 5px;
+}
+.redCard:hover{
+    transform: rotateY(180deg);
+}
+
+.redFront{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  backface-visibility: hidden;
+    background-color: red;
+    color:white;
+}
+
+.redBack{
+    position: relative;
+   width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: red;
+    color: white;
+    transform: rotateY(180deg);
+
+}
+
+.greenCard{
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    background: green;
+    box-shadow: 5px 5px;
+}
+.greenCard:hover{
+    transform: rotateY(180deg);
+}
+
+.greenFront{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  backface-visibility: hidden;
+    background-color: green;
+    color:white;
+}
+
+.greenBack{
+    position: relative;
+   width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: green;
+    color: white;
+    transform: rotateY(180deg);
+
+}
+.yellowCard{
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    background: yellow;
+    box-shadow: 5px 5px;
+}
+.yellowCard:hover{
+    transform: rotateY(180deg);
+}
+
+.yellowFront{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  backface-visibility: hidden;
+    background-color: yellow;
+    color:white;
+}
+
+.yellowBack{
+    position: relative;
+   width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: yellow;
+    color: white;
+    transform: rotateY(180deg);
+
+}
+
+.pinkCard{
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    background: pink;
+    box-shadow: 5px 5px;
+}
+.pinkCard:hover{
+    transform: rotateY(180deg);
+}
+.pinkFront{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  backface-visibility: hidden;
+    background-color: pink;
+    color:white;
+}
+
+.pinkBack{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: pink;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.blueCard{
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    background: blue;
+    box-shadow: 5px 5px;
+}
+.blueCard:hover{
+    transform: rotateY(180deg);
+}
+
+.blueFront{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  backface-visibility: hidden;
+    background-color: blue;
+    color:white;
+}
+
+.blueBack{
+    position: relative;
+   width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: blue;
+    color: white;
+    transform: rotateY(180deg);
+
+}
+
+.brownCard{
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    background: brown;
+    box-shadow: 5px 5px;
+}
+.brownCard:hover{
+    transform: rotateY(180deg);
+}
+.brownFront{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  backface-visibility: hidden;
+    background-color: brown;
+    color:white;
+}
+
+.brownBack{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: brown;
+    color: white;
+    transform: rotateY(180deg);
+}
+.blackCard{
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    background: black;
+    box-shadow: 5px 5px;
+}
+.blackCard:hover{
+    transform: rotateY(180deg);
+}
+
+.blackFront{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  backface-visibility: hidden;
+    background-color: black;
+    color:white;
+}
+
+.blackBack{
+    position: relative;
+   width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: black;
+    color: white;
+    transform: rotateY(180deg);
+
+}
+
+.purpleCard{
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    background: purple;
+    box-shadow: 5px 5px;
+}
+.purpleCard:hover{
+    transform: rotateY(180deg);
+}
+.purpleFront{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  backface-visibility: hidden;
+    background-color: purple;
+    color:white;
+}
+
+.purpleBack{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: purple;
+    color: white;
+    transform: rotateY(180deg);
+}
